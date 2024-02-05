@@ -12,6 +12,8 @@
 		CEFF83BA2B716E0000E207A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFF83B92B716E0000E207A2 /* ViewController.swift */; };
 		CEFF83BF2B716E0600E207A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEFF83BE2B716E0600E207A2 /* Assets.xcassets */; };
 		CEFF83C22B716E0600E207A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEFF83C02B716E0600E207A2 /* LaunchScreen.storyboard */; };
+		CEFF83CD2B71970600E207A2 /* Roboto in Resources */ = {isa = PBXBuildFile; fileRef = CEFF83CC2B71970600E207A2 /* Roboto */; };
+		CEFF83D02B719A2D00E207A2 /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFF83CF2B719A2D00E207A2 /* UIFont+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		CEFF83BE2B716E0600E207A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEFF83C12B716E0600E207A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEFF83C32B716E0600E207A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEFF83CC2B71970600E207A2 /* Roboto */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Roboto; sourceTree = "<group>"; };
+		CEFF83CF2B719A2D00E207A2 /* UIFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 		CEFF83B42B716E0000E207A2 /* FoodDeliveryApp */ = {
 			isa = PBXGroup;
 			children = (
+				CEFF83CA2B7196C800E207A2 /* Resources */,
 				CEFF83B52B716E0000E207A2 /* AppDelegate.swift */,
 				CEFF83B72B716E0000E207A2 /* SceneDelegate.swift */,
 				CEFF83B92B716E0000E207A2 /* ViewController.swift */,
@@ -62,6 +67,31 @@
 				CEFF83C32B716E0600E207A2 /* Info.plist */,
 			);
 			path = FoodDeliveryApp;
+			sourceTree = "<group>";
+		};
+		CEFF83CA2B7196C800E207A2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CEFF83CE2B7199D900E207A2 /* Extensions */,
+				CEFF83CB2B7196ED00E207A2 /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CEFF83CB2B7196ED00E207A2 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CEFF83CC2B71970600E207A2 /* Roboto */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		CEFF83CE2B7199D900E207A2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CEFF83CF2B719A2D00E207A2 /* UIFont+Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +154,7 @@
 			files = (
 				CEFF83C22B716E0600E207A2 /* LaunchScreen.storyboard in Resources */,
 				CEFF83BF2B716E0600E207A2 /* Assets.xcassets in Resources */,
+				CEFF83CD2B71970600E207A2 /* Roboto in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +167,7 @@
 			files = (
 				CEFF83BA2B716E0000E207A2 /* ViewController.swift in Sources */,
 				CEFF83B62B716E0000E207A2 /* AppDelegate.swift in Sources */,
+				CEFF83D02B719A2D00E207A2 /* UIFont+Extension.swift in Sources */,
 				CEFF83B82B716E0000E207A2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
