@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CECF9C562B76424C006E45B2 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECF9C552B76424C006E45B2 /* UIColor+Extension.swift */; };
+		CECF9C582B764ADB006E45B2 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECF9C572B764ADB006E45B2 /* AppColors.swift */; };
 		CEFF83B62B716E0000E207A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFF83B52B716E0000E207A2 /* AppDelegate.swift */; };
 		CEFF83B82B716E0000E207A2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFF83B72B716E0000E207A2 /* SceneDelegate.swift */; };
 		CEFF83BA2B716E0000E207A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFF83B92B716E0000E207A2 /* ViewController.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CECF9C552B76424C006E45B2 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		CECF9C572B764ADB006E45B2 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
 		CEFF83B22B716E0000E207A2 /* FoodDeliveryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodDeliveryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEFF83B52B716E0000E207A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEFF83B72B716E0000E207A2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +76,7 @@
 		CEFF83CA2B7196C800E207A2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				CECF9C572B764ADB006E45B2 /* AppColors.swift */,
 				CEFF83CE2B7199D900E207A2 /* Extensions */,
 				CEFF83CB2B7196ED00E207A2 /* Fonts */,
 			);
@@ -89,6 +94,7 @@
 		CEFF83CE2B7199D900E207A2 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				CECF9C552B76424C006E45B2 /* UIColor+Extension.swift */,
 				CEFF83CF2B719A2D00E207A2 /* UIFont+Extension.swift */,
 			);
 			path = Extensions;
@@ -168,7 +174,9 @@
 				CEFF83BA2B716E0000E207A2 /* ViewController.swift in Sources */,
 				CEFF83B62B716E0000E207A2 /* AppDelegate.swift in Sources */,
 				CEFF83D02B719A2D00E207A2 /* UIFont+Extension.swift in Sources */,
+				CECF9C582B764ADB006E45B2 /* AppColors.swift in Sources */,
 				CEFF83B82B716E0000E207A2 /* SceneDelegate.swift in Sources */,
+				CECF9C562B76424C006E45B2 /* UIColor+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
